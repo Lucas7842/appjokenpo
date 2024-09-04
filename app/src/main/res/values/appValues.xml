@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Parametro do projeto -->
+
+
+    <!-- Strings do projeto -->
+    <string name="appTítulo">JOKENPO PLAY</string>
+    <string name="appResultado">---</string>
+
+    <!-- Color do projeto -->
+    <color name="appColorBG"  >#fad0e4</color>
+    <color name="appColorFont"  >#e41678</color>
+    <color name="appColorResultado"  >#000000</color>
+
+</resources>
