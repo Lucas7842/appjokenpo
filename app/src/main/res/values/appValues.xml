@@ -9,8 +9,8 @@
     <string name="appResultado">---</string>
 
     <!-- Color do projeto -->
-    <color name="appColorBG"  >#fad0e4</color>
-    <color name="appColorFont"  >#e41678</color>
+    <color name="appColorBG"  >#6c97cc</color>
+    <color name="appColorFont"  >#CC8105</color>
     <color name="appColorResultado"  >#000000</color>
 
 </resources>
