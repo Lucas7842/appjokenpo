@@ -6,7 +6,12 @@
 
     <!-- Strings do projeto -->
     <string name="appTítulo">JOKENPO PLAY</string>
-    <string name="appResultado">---</string>
+    <string name="appResultado">Click na opção abaixo:</string>
+    <string name="appJogoWin">Você ganhou</string>
+    <string name="appJogoGameOver">perdeu</string>
+    <string name="appJogoEmpate">Empatou...</string>
+
+
 
     <!-- Color do projeto -->
     <color name="appColorBG"  >#6c97cc</color>

@@ -30,12 +30,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/appResultado"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.90" />
+        app:layout_constraintVertical_bias="0.55" />
     <!-- Imagem padrão -->
     <ImageView
         android:id="@+id/imagePadrao"
@@ -51,25 +52,27 @@
         app:srcCompat="@drawable/padrao" />
 
     <!-- imagem papel-->
-    <ImageView
-        android:id="@+id/imagePapel"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.10
+   <ImageView
+       android:id="@+id/imagePapel"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:onClick="selectPapel"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.10
 "
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.75
 "
-        app:srcCompat="@drawable/papel" />
+       app:srcCompat="@drawable/papel" />
 
     <!-- iamgem pedra-->
     <ImageView
         android:id="@+id/imagePedra"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:onClick="selectPedra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50
@@ -84,6 +87,7 @@
         android:id="@+id/imageTesoura"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:onClick="selectTesoura"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.90"
@@ -92,4 +96,41 @@
         app:layout_constraintVertical_bias="0.75
 "
         app:srcCompat="@drawable/tesoura" />
+
+    <Button
+        android:id="@+id/buttonReiniciar"
+        android:layout_width="218dp"
+        android:layout_height="52dp"
+        android:text="Reiniciar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
 </androidx.constraintlayout.widget.ConstraintLayout>
